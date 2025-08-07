@@ -1,0 +1,16 @@
+[package]
+name = "DividendDistributionToken"
+version = "1.0.0"
+authors = []
+
+[addresses]
+janvikash_addr = "66d4b088c3a65b7069b1e9af3518a50c372e792b465f3c5d17560f2160994d11"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
